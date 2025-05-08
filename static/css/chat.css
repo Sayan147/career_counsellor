@@ -1,0 +1,79 @@
+.message.bot {
+    background-color: #f0f2f5;
+    padding: 12px 16px;
+    border-radius: 12px;
+    margin: 8px 0;
+    max-width: 80%;
+    line-height: 1.5;
+}
+
+.message.bot p {
+    margin: 0 0 12px 0;
+}
+
+.message.bot p:last-child {
+    margin-bottom: 0;
+}
+
+.message.bot ul, .message.bot ol {
+    margin: 8px 0;
+    padding-left: 24px;
+}
+
+.message.bot li {
+    margin: 4px 0;
+}
+
+.message.bot code {
+    background-color: #e8e8e8;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+.message.bot pre {
+    background-color: #e8e8e8;
+    padding: 12px;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 8px 0;
+}
+
+.message.bot pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+.message.bot blockquote {
+    border-left: 4px solid #ccc;
+    margin: 8px 0;
+    padding-left: 16px;
+    color: #666;
+}
+
+.message.bot h1, .message.bot h2, .message.bot h3, 
+.message.bot h4, .message.bot h5, .message.bot h6 {
+    margin: 16px 0 8px 0;
+    font-weight: 600;
+}
+
+.message.bot h1 { font-size: 1.5em; }
+.message.bot h2 { font-size: 1.3em; }
+.message.bot h3 { font-size: 1.1em; }
+
+.message.bot a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.message.bot a:hover {
+    text-decoration: underline;
+}
+
+.message.bot strong {
+    font-weight: 600;
+}
+
+.message.bot em {
+    font-style: italic;
+} 
